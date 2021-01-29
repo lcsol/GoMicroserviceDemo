@@ -6,8 +6,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-
-	// "quickstart/models"
 	"time"
 
 	"go.mongodb.org/mongo-driver/mongo"
