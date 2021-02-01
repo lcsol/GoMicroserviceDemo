@@ -7,9 +7,6 @@ replace (
 	GoMicroserviceDemo/models => ../models
 )
 
-// replace GoMicroserviceDemo/handlers => ../handlers
-// replace GoMicroserviceDemo/models => ../models
-
 require (
 	GoMicroserviceDemo/handlers v0.0.0-00010101000000-000000000000 // indirect
 	GoMicroserviceDemo/models v0.0.0-00010101000000-000000000000 // indirect
