@@ -1,6 +1,8 @@
-package main
+package handlers
 
-import "net/http"
+import (
+	"net/http"
+)
 
 func (app *Application) serverError(rw http.ResponseWriter, err error) {
 	app.errLog.Println(err)
