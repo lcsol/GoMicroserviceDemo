@@ -15,21 +15,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-// // Application is a handler to handle CRUD requests
-// type Application struct {
-// 	infoLog *log.Logger
-// 	errLog  *log.Logger
-// 	labs    *LabCollection
-// }
-
-const (
-	serverAddr = "localhost"
-	serverPort = 8080
-	mongoURL   = "mongodb://127.0.0.1:27017"
-	database   = "labs"
-	collection = "test"
-)
-
 func main() {
 
 	infoLog := log.New(os.Stdout, "INFO\t", log.Ldate|log.Ltime)

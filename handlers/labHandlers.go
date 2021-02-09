@@ -47,7 +47,8 @@ func (app *Application) Create(rw http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		app.serverError(rw, err)
 	}
-	app.infoLog.Printf("Created a new lab, id=%s", insert.InsertedID)
+	// app.infoLog.Printf("Created a new lab, id=%s", insert.InsertedID)
+	app.infoLog.Printf("Created a new lab: %s", insert)
 }
 
 // UpdateName calls UpdateLabName func from labs to update a lab name in database
